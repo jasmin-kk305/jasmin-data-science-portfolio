@@ -1,42 +1,75 @@
 # Mobile Recharge System
 
 ## 📌 Project Overview
-The Mobile Recharge System is a Python-based application developed using Streamlit.
+The Mobile Recharge System is a Python-based application developed to manage mobile recharge operations.
 
-This application allows users to select mobile recharge plans and view the available recharge options through a simple and user-friendly interface.
+The project allows customers to view recharge plans, select a suitable plan, complete a recharge, and check their recharge history.
+
+This project is implemented using Python and Streamlit.
+
+## ✨ Features
+- Customer name and mobile number input
+- Mobile number validation
+- Display available recharge plans
+- Select and complete recharge
+- Generate unique transaction ID
+- Display recharge date and time
+- Maintain recharge history
+- User-friendly Streamlit interface
+
+## 📱 Recharge Plans
+
+| Plan | Price | Data | Validity |
+|---|---:|---|---|
+| Basic Plan | ₹199 | 1.5 GB/day | 28 Days |
+| Standard Plan | ₹299 | 2 GB/day | 28 Days |
+| Premium Plan | ₹499 | 3 GB/day | 56 Days |
 
 ## 🛠️ Technologies Used
 - Python
 - Streamlit
 
-## ✨ Features
-- Displays available recharge plans.
-- Basic Plan – ₹199
-- Standard Plan – ₹299
-- Premium Plan – ₹499
-- Simple and user-friendly interface.
-- Object-Oriented Programming (OOP) concepts.
-
-## ⚙️ Concepts Used
-- Python Classes and Objects
-- Object-Oriented Programming
+## 📚 Python Concepts Used
+- Object-Oriented Programming (OOP)
+- Classes and Objects
+- Constructors (`__init__`)
+- Functions and Methods
+- Lists and Dictionaries
 - Conditional Statements
-- Streamlit UI Development
+- Loops
+- Random Module
+- Date and Time Module
+- Input Validation
+
+## ⚙️ Project Modules
+1. Customer Details
+2. Mobile Number Validation
+3. Recharge Plan Display
+4. Plan Selection
+5. Recharge Processing
+6. Transaction ID Generation
+7. Recharge History
 
 ## 🚀 How to Run the Project
 
-1. Install Streamlit:
+### Python Console Version
 
-   `pip install streamlit`
+Run the Python file:
 
-2. Open the project folder in VS Code.
+`python mobile_recharge.py`
 
-3. Run the application:
+### Streamlit Version
 
-   `streamlit run app.py`
+Install Streamlit:
+
+`pip install streamlit`
+
+Run the Streamlit application:
+
+`streamlit run app.py`
 
 ## 🎯 Project Objective
-To develop a simple mobile recharge application using Python and understand the practical implementation of Object-Oriented Programming concepts.
+To develop a mobile recharge application using Python and understand the practical implementation of Object-Oriented Programming concepts and Streamlit application development.
 
 ## 👩‍💻 Author
 Jasmin K K
